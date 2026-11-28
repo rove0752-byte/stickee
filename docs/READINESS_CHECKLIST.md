@@ -19,6 +19,8 @@ Legend: ✅ done · ⬜ to do · 🔒 needs Jacko's yes (settings, money, public
 | ✅ Issue forms: bug, feature, data verification, data gap | `.github/ISSUE_TEMPLATE/` |
 | ✅ PR template with evidence checklist | `.github/pull_request_template.md` |
 | ✅ Label definitions (not created on GitHub) | `docs/LABELS.md`, `.github/labels.yml` |
+| ✅ Conduct and security contact: stickeepolitics@gmail.com | `CODE_OF_CONDUCT.md`, `SECURITY.md` |
+| ✅ GitHub Discussions linked in README and issue-form config (will be turned on after merge) | `README.md`, `.github/ISSUE_TEMPLATE/config.yml` |
 | ✅ Git history secret scan (gitleaks 8.21.2, all branches, 59 commits): 2 findings, both false positives (a localStorage key name constant). No `.env`, key or credential files ever committed. | report kept off-repo |
 
 ## Still needed before inviting strangers
@@ -38,8 +40,8 @@ A public repo shows attackers exactly where the weak spots are. Source: `STRIPE_
 
 | | Item |
 |---|---|
-| ⬜🔒 | Turn on **Private vulnerability reporting** (Settings → Code security). `SECURITY.md` links to it. |
-| ⬜🔒 | Turn on **GitHub Discussions** and add a "Say hi" category. Then add it to `.github/ISSUE_TEMPLATE/config.yml` and the README. |
+| ✅🔒 | **Private vulnerability reporting** approved. Docs already link to it. Turn it on in Settings → Code security right after this PR is merged. |
+| ✅🔒 | **GitHub Discussions** approved. README and `.github/ISSUE_TEMPLATE/config.yml` already link to it. Turn it on (add a "Say hi" category) right after this PR is merged. |
 | ⬜🔒 | Create the labels in `.github/labels.yml` |
 | ⬜🔒 | Branch protection on `main`: require CI to pass and 1 review |
 | ⬜🔒 | Decide how to handle "workflow awaiting approval" for first-time contributors (GitHub's default for public forks is fine) |
@@ -48,8 +50,8 @@ A public repo shows attackers exactly where the weak spots are. Source: `STRIPE_
 
 | | Item |
 |---|---|
-| ⬜🔒 | Pick a **conduct contact email** and fill the TODO in `CODE_OF_CONDUCT.md` |
-| ⬜🔒 | Pick a **security backup contact** and fill the TODO in `SECURITY.md` |
+| ✅ | **Conduct contact email** is stickeepolitics@gmail.com (`CODE_OF_CONDUCT.md`) |
+| ✅ | **Security backup contact** is stickeepolitics@gmail.com (`SECURITY.md`) |
 | ⬜ | Line up at least one helper/reviewer besides you, so PRs get a reply within 48 h |
 
 ### Content

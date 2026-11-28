@@ -79,7 +79,7 @@ npm run build
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Security policy](SECURITY.md): report vulnerabilities privately, never in a public issue
-- Questions: open an issue for now. GitHub Discussions is coming.
+- Questions and introductions: [GitHub Discussions](https://github.com/stickee-aus/stickee/discussions)
 
 ## Licence
 

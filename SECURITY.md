@@ -10,8 +10,9 @@ Report it privately through GitHub:
 2. Click **Report a vulnerability** (direct link: <https://github.com/stickee-aus/stickee/security/advisories/new>).
 3. Describe what you found, how to reproduce it, and what it affects.
 
-<!-- TODO(Jacko): confirm "Private vulnerability reporting" is switched on in repo Settings → Code security. Until it is, the link above will not work. -->
-<!-- TODO(Jacko): add a backup security contact email here. -->
+If the GitHub form is unavailable, email [stickeepolitics@gmail.com](mailto:stickeepolitics@gmail.com) with the subject "Security vulnerability". Do not include secrets in the subject line.
+
+Private vulnerability reporting is approved and will be turned on when this PR is merged. Until then, use the email above.
 
 ## What to expect
 
